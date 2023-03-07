@@ -1,0 +1,355 @@
+/* Define as fontes padrão para o site */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Estiliza o cabeçalho */
+  header {
+    background-color: #738fcc;
+    color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estiliza a barra de navegação */
+  nav {
+    background-color:#bec4d3;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Estiliza a seção de promoções */
+  section.promocoes {
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .promocao {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .promocao h2 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .promocao p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .promocao .preco {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .promocao button {
+    background-color: #005596;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .promocao button:hover {
+    background-color: #fff;
+    color: #005596;
+  }
+  
+  /* Estiliza a seção de pesquisa de passagens */
+  section.passagens {
+    padding: 50px 20px;
+  }
+  
+  .passagens-form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .passagens-form label {
+    font-weight: bold;
+  }
+  
+  .passagens-form input,
+  .passagens-form select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .passagens-form input[type="submit"] {
+    background-color: #005596;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .passagens-form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #005596;
+  }
+  
+  /* Estiliza a seção de promoções */
+.promocoes {
+	background-color: #f4f4f4;
+	padding: 50px;
+	text-align: center;
+}
+
+.promocoes h2 {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.promocoes p {
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 40px;
+}
+
+/* Estiliza a seção de pesquisa e reserva de passagens */
+.passagens {
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.passagens h2 {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.passagens form {
+	display: inline-block;
+	text-align: left;
+}
+
+.passagens label {
+	display: block;
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.passagens input[type="text"],
+.passagens select {
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.passagens input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Estiliza a seção de pesquisa e reserva de hotéis */
+.hoteis {
+	background-color: #f4f4f4;
+	padding: 50px;
+	text-align: center;
+}
+
+.hoteis h2 {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.hoteis form {
+	display: inline-block;
+	text-align: left;
+}
+
+.hoteis label {
+	display: block;
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.hoteis input[type="text"],
+.hoteis select {
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.hoteis input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Estiliza a seção de aluguel de carros */
+.aluguel {
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+.aluguel h2 {
+	font-size: 32px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.aluguel form {
+	display: inline-block;
+	text-align: left;
+}
+
+.aluguel label {
+	display: block;
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.aluguel input[type="text"],
+.aluguel select {
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.aluguel input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+/* Estiliza a seção de pacotes de viagens */
+
+section.pacotes {
+    background-color: #f8f8f8;
+    padding: 50px;
+  }
+  
+  section.pacotes h2 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .pacotes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+  }
+  
+  .pacote-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .pacote-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .pacote-imagem {
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .pacote-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .pacote-item:hover .pacote-imagem img {
+    transform: scale(1.05);
+  }
+  
+  .pacote-descricao {
+    margin-top: 20px;
+  }
+  
+  .pacote-titulo {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .pacote-preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E90FF;
+    margin-bottom: 10px;
+  }
+  
+  .pacote-duracao {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+
+  
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agência de Viagens XYZ</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+	<header>
+		<h1>Agência de Viagens KOGARASHI</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Promoções</a></li>
+				<li><a href="#">Pacotes de Viagens</a></li>
+				<li><a href="#">Destinos em Alta</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="destaques">
+		<h2>Destaques</h2>
+		<div class="destaque">
+			<img src="https://www.maladeaventuras.com/wp-content/uploads/2020/04/top-praias-floripa.jpg" alt="Destaque 1">
+			<h3>Praia em Florianópolis</h3>
+			<p>Aproveite o verão com nossas promoções para Florianópolis!</p>
+			<a href="#" class="botao">Saiba Mais</a>
+		</div>
+		<div class="destaque">
+			<img src="https://www.segueviagem.com.br/wp-content/uploads/2020/04/shutterstock_1628358454.jpg" alt="Destaque 2">
+			<h3>Viagem Romântica para Paris</h3>
+			<p>Surpreenda sua amada(o) com uma viagem inesquecível a Paris.</p>
+			<a href="#" class="botao">Saiba Mais</a>
+		</div>
+		<div class="destaque">
+			<img src="https://midias.correiobraziliense.com.br/_midias/jpg/2022/11/29/675x450/1_017152-26954261.jpg?20221129230131?20221129230131" alt="Destaque 3">
+			<h3>Machu Picchu</h3>
+			<p>Conheça as maravilhas do Peru com nossos pacotes de viagens para Machu Picchu.</p>
+			<a href="#" class="botao">Saiba Mais</a>
+		</div>
+	</section>
+
+	<section class="passagens">
+		<h2>Reserva de Passagens Aéreas</h2>
+		<form>
+			<label for="origem">Origem:</label>
+			<input type="text" id="origem" name="origem">
+
+			<label for="destino">Destino:</label>
+			<input type="text" id="destino" name="destino">
+
+			<label for="data-id">Data:</label>
+			<input type="date" id="data-id" name="data">
+
+			<label for="passageiros">Número de Passageiros:</label>
+			<input type="number" id="passageiros" name="passageiros">
+
+			<label for="classe">Classe:</label>
+			<select id="classe" name="classe">
+				<option value="economica">Econômica</option>
+				<option value="executiva">Executiva</option>
+				<option value="primeira-classe">Primeira Classe</option>
+			</select>
+
+			<input type="submit" value="Buscar Passagens">
+		</form>
+	</section>
+
+	<section class="hoteis">
+		<h2>Reserva de Hotéis</h2>
+		<form>
+			<label for="local">Localização:</label>
+			<input type="text" id="local" name="local">
+
+			<label for="check
+      <section class="hoteis">
+        <h2>Hotéis</h2>
+      
+        <form action="#">
+          <label for="local">Localização:</label>
+          <input type="text" id="local" name="local">
+      
+          <label for="checkin">Check-in:</label>
+          <input type="date" id="checkin" name="checkin">
+      
+          <label for="checkout">Check-out:</label>
+          <input type="date" id="checkout" name="checkout">
+      
+          <label for="quartos">Quartos:</label>
+          <select id="quartos" name="quartos">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+      
+          <label for="adultos">Adultos:</label>
+          <select id="adultos" name="adultos">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+      
+          <label for="criancas">Crianças:</label>
+          <select id="criancas" name="criancas">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+      
+          <input type="submit" value="Pesquisar">
+        </form>
+      
+        <div class="resultado-pesquisa">
+          <h3>Resultado da pesquisa:</h3>
+          <ul>
+            <li>
+              <h4>Matsubara Hotel</h4>
+              <p>Av. Brigadeiro Eduardo Gomes de Brito, 1551 - Lagoa da Anta, Maceió - AL, 57038-230•(82) 3214-3000</p>
+              <p>Preço por noite: R$ 200,00</p>
+              <button>Reservar</button>
+            </li>
+            <li>
+              <h4>Paradise Vista do Atlântico</h4>
+              <p>R. Vista do Atlântico, Quadra 02, N⁰ 12 - Jacarecica, Maceió - AL, 57038-640•(82) 98223-5336</p>
+              <p>Preço por noite: R$ 150,00</p>
+              <button>Reservar</button>
+            </li>
+            <li>
+              <h4>Ritz Praia Hotel</h4>
+              <p>R. Eng. Mario de Gusmão, 1300 - Ponta Verde, Maceió - AL, 57035-000•(82) 99125-6825</p>
+              <p>Preço por noite: R$ 180,00</p>
+              <button>Reservar</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <section class="carros">
+        <h2>Aluguel de Carros</h2>
+      
+        <form action="#">
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade">
+      
+          <label for="data-retirada">Data de Retirada:</label>
+          <input type="date" id="data-retirada" name="data-retirada">
+      
+          <label for="hora-retirada">Hora de Retirada:</label>
+          <input type="time" id="hora-retirada" name="hora-retirada">
+      
+          <label for="data-devolucao">Data de Devolução:</label>
+          <input type="date" id="data-devolucao" name="data-devolucao">
+    
+          <label for="hora-devolucao">Hora de Devolução:</label>
+          <input type="time" id="hora-devolucao" name="hora-devolucao">
+    
+          <label for="tipo-carro">Tipo de Carro:</label>
+          <select id="tipo-carro" name="tipo-carro">
+            <option value="">Selecione</option>
+            <option value="economico">Econômico</option>
+            <option value="intermediario">Intermediário</option>
+            <option value="luxo">Luxo</option>
+          </select>
+    
+          <label for="duracao-locacao">Duração da Locação (em dias):</label>
+          <input type="number" id="duracao-locacao" name="duracao-locacao" min="1" max="30">
+    
+          <input type="submit" value="Pesquisar">
+        </form>
+      </section>
+    
+      <section class="pacotes">
+        <h2>Pacotes de Viagens</h2>
+        <p>Confira nossos pacotes de viagens exclusivos para diversos destinos ao redor do mundo.</p>
+        <div class="pacote">
+          <img src="https://media.staticontent.com/media/pictures/10870dcf-79e5-4d7a-ad22-cabc3cf75cf8/300x200" alt="Destino 1">
+          <h3>Natal</h3>
+          <p>1.180 R$ </p>
+          <a href="#">Ver Detalhes</a>
+        </div>
+        <div class="pacote">
+          <img src="https://media.staticontent.com/media/pictures/e8185e9c-c138-4500-af05-64502174d95b/360x360" alt="Destino 2">
+          <h3>Maceió</h3>
+          <p> 1.984 R$</p>
+          <a href="#">Ver Detalhes</a>
+        </div>
+        <div class="pacote">
+          <img src="https://media.staticontent.com/media/pictures/3781f8a5-43c6-4ed0-a600-5b4c6396d147/360x360" alt="Destino 3">
+          <h3>Gramado</h3>
+          <p>1.244 R$</p>
+          <a href="#">Ver Detalhes</a>
+        </div>
+      </section>
+    
+      <section class="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações ou para fazer uma reserva.</p>
+        <form action="#" method="post">
+          <label for="nome-contato">Nome:</label>
+          <input type="text" id="nome-contato" name="nome-contato">
+    
+          <label for="email-contato">E-mail:</label>
+          <input type="email" id="email-contato" name="email-contato">
+    
+          <label for="telefone-contato">Telefone:</label>
+          <input type="tel" id="telefone-contato" name="telefone-contato">
+    
+          <label for="mensagem-contato">Mensagem:</label>
+					<textarea id="mensagem-contato" name="mensagem-contato"></textarea>
+				</div>
+				<div class="botao-contato">
+					<button type="submit">Enviar</button>
+				</div>
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="coluna-footer">
+				<h3>Agência de Viagens</h3>
+				<p>Endereço: Rua das Viagens, 123</p>
+				<p>Telefone: (11) 1234-5678</p>
+				<p>E-mail: contato@agenciadeviagens.com.br</p>
+			</div>
+			<div class="coluna-footer">
+				<h3>Links Úteis</h3>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Passagens Aéreas</a></li>
+					<li><a href="#">Hotéis</a></li>
+					<li><a href="#">Aluguel de Carros</a></li>
+					<li><a href="#">Pacotes de Viagens</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</div>
+			<div class="coluna-footer">
+				<h3>Redes Sociais</h3>
+				<ul class="redes-sociais">
+					<li><a href="#"><img src="imagens/facebook.png" alt="Facebook"></a></li>
+					<li><a href="#"><img src="imagens/twitter.png" alt="Twitter"></a></li>
+					<li><a href="#"><img src="imagens/instagram.png" alt="Instagram"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+    
+        
+    
+      
